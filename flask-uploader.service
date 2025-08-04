@@ -1,0 +1,14 @@
+[Unit]
+Description=Gunicorn instance to serve flask-uploader
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/secure-aws-file-backup-infra/flask-uploader
+Environment="PATH=/home/ubuntu/secure-aws-file-backup-infra/flask-uploader/venv/bin"
+ExecStart=/home/ubuntu/secure-aws-file-backup-infra/flask-uploader/venv/bin/gunicorn --workers 4 --bind 127.0.0.1:8000 app:app
+
+[Install]
+WantedBy=multi-user.target
+

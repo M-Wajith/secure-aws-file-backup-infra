@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+backup.log
+
+# AWS CLI zip files or credentials (if any)
+awscliv2.zip
+
+# System files
+.DS_Store
+*.swp
+*~
+
+# Uploads folder - you might want to keep uploaded files outside of Git
+uploads/
+
