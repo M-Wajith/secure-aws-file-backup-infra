@@ -63,7 +63,7 @@ secure-aws-file-backup-infra/
 | VPC and subnets configuration   | ![](screenshots/vpc-subnet.png)             |
 | Crontab job listing             | ![](screenshots/crontab-entry.png)          |
 | systemd Gunicorn service status | ![](screenshots/systemd-status.png)         |
-| Nginx configuration preview     | ![](screenshots/nginx-config.png)           |
+| Nginx configuration preview     | ![](screenshots/ngnix-config-display.png)   |
 
 ---
 
